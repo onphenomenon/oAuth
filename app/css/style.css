@@ -1,0 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Karla:700, 400);
+ h1, p, {
+    color: #4C4C4C;
+    font-family: verdana, sans-serif;
+    font-weight: 400;
+}
+.btn {
+    display: inline-block;
+    font-size: .882352941em;
+    font-family:'Karla', verdana, sans-serif;
+    padding: .4em .666666667em;
+    line-height: 1.333333333;
+    font-weight: normal;
+    background-color: #FF530D;
+    border: 0.07143em solid #FF530D;
+    border-radius: .2em;
+    border-bottom: 0.3em solid #E82C0C;
+    color: #fff;
+    margin-left: .3em;
+    margin-bottom: .3em;
+    text-decoration: none;
+}
+.btn-large {
+    padding: 0.3em 1.5em;
+    font-size: 1.5em;
+    line-height: normal;
+    border-radius: .2em;
+    font-weight: 700;
+}
+.btn-x-large {
+    font-size: 2em;
+}
+.btn:hover {
+    background-color: #FF6526;
+    border-color: #FF6526;
+    text-decoration: none;
+    border-bottom-color: #E83014;
+}

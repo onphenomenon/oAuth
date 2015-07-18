@@ -1,0 +1,12 @@
+<ul>
+<% for(var i = 0; i < myObjectArray.length; i++) {%>
+  <li>
+    <ul>
+    <% for(var key in myObjectArray[i]) {%>
+      <li><%= key %>  <%= myObjectArray[i][key] %></li>
+    <% } %>
+    </ul>
+  </li>
+  <% } %>
+</ul>
+

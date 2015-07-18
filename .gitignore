@@ -1,0 +1,4 @@
+#.config for intuit
+config.js
+node_modules/
+*.log
